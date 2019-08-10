@@ -61,7 +61,8 @@ class Owner
   end
 
   def list_pets
-    "I have #{pets[:dogs].length} dog(s), and #{pets[:cats].length} cat(s)."
+    #binding.pry
+    "I have #{self.dogs.count} dog(s), and #{self.cats.count} cat(s)."
   end
 
   def sell_pets
