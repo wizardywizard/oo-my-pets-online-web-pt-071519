@@ -72,6 +72,47 @@ class Owner
       pet.mood = 'nervous'
       pet.owner = nil
     end
+<<<<<<< HEAD
   end
     
 end
+=======
+    
+  #   pets.each do |pet, arr|
+  #     arr.map do |pets|
+  #       binding.pry
+  #       pets.mood = 'nervous'
+  #     end
+  #     arr.clear
+  #   end
+  # end
+
+end
+
+      # it 'can sell all its pets, which makes them nervous' do
+      #   fido = Dog.new("Fido", @owner)
+      #   tabby = Cat.new("Tabby", @owner)
+
+      #   [fido, tabby].each {|o| o.mood = "happy" }
+
+      #   @owner.sell_pets
+
+      #   [fido, tabby].each { |o| expect(o.mood).to eq("nervous") }
+      # end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 1cb2c4c57b6a478c21c05b135e5c33ba6c42bbc0
